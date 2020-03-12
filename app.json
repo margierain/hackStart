@@ -1,0 +1,54 @@
+{
+  "name": "GitStart App",
+  "success_url": "/",
+  "scripts": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "env": {
+    "HASURA_GRAPHQL_ENGINE_DOMAIN": {
+      "required": true
+    },
+    "SENTRY_ENV": {
+      "required": true
+    },
+    "SENTRY_DSN": {
+      "required": true
+    },
+    "TIMEDOCTOR_API_URL": {
+      "required": true
+    },
+    "TIMEDOCTOR_COMPANY_ID": {
+      "required": true
+    },
+    "TIMEDOCTOR_CLIENT_ID": {
+      "required": true
+    },
+    "TIMEDOCTOR_SECRET_KEY": {
+      "required": true
+    },
+    "AUTH0_DOMAIN": {
+      "required": true
+    },
+    "AUTH0_CLIENTID": {
+      "required": true
+    },
+    "TIMETASTIC_API_DOMAIN": {
+      "required": true
+    },
+    "TIMETASTIC_API_TOKEN": {
+      "required": true
+    },
+    "STRIPE_API_KEY": {
+      "required": true
+    },
+    "STRIPE_PK_KEY": {
+      "required": true
+    },
+    "CALENDLY_ONBOARDING_LINK": {
+      "required": true
+    }
+  }
+}

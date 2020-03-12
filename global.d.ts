@@ -1,0 +1,14 @@
+declare type hasura_uuid = string;
+declare type hasura_int8 = string;
+declare type hasura_bigint = string;
+declare type hasura_numeric = number;
+declare type hasura_varbit = string;
+declare type hasura_bit = string;
+declare type hasura_char = string;
+declare type hasura_varchar = string;
+declare type hasura_bool = boolean;
+declare type hasura_int = number;
+declare type hasura_int4 = number;
+declare type hasura_float8 = number;
+declare type hasura_timestamptz = string;
+declare type hasura_jsonb = Object;

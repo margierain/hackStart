@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext", "es2016", "esnext.asynciterable"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+      "*": ["./src/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".next/**/*",
+    "coverage",
+    "./src/lib/graphql/roles/agency/generated/globalTypes.ts"
+  ],
+  "include": [
+    "global.d.ts",
+    "next-env.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js"
+  ]
+}
