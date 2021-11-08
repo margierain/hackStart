@@ -66,7 +66,7 @@
     "apollo-client": "^2.6.4",
     "apollo-link": "^1.2.13",
     "apollo-link-http": "^1.5.16",
-    "apollo-server": "^2.9.8",
+    "apollo-server": "^2.25.3",
     "apollo-server-micro": "^2.9.12",
     "auth0-lock": "^11.20.2",
     "bcrypt": "^3.0.7",
