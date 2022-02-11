@@ -89,7 +89,7 @@
     "moment": "^2.24.0",
     "next": "^9.1.5",
     "next-with-apollo": "^4.3.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "object-hash": "^2.0.3",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
